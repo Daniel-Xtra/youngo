@@ -1,0 +1,47 @@
+.navbar-toggler {
+    border: transparent!important;
+    box-shadow: none!important;
+    outline: none;
+}
+.fa-2x{
+    color:white;
+    font-size:20px;
+    font-style: normal;
+}
+.navbar-toggler:focus {
+    border: transparent!important;
+    box-shadow: none!important;
+    outline: none;
+}
+
+.navbar {
+    background-color: #f8537a;
+}
+
+.navbar-brand img{
+    width: 5.3em;
+}
+
+@media(max-width:767px) {
+
+    .navbar-collapse {
+        background-color: #f8537a;;
+    }
+    .nav-item:hover {
+        border-left:2px solid white
+    }
+    .nav-link {
+        margin-left: 20px;
+    }
+    
+
+    
+}
+@media(max-width:991px) {
+
+    /* .nav-link {
+        margin-left: 20px;
+    } */
+
+   
+}

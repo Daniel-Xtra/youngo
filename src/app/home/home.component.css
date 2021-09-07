@@ -1,0 +1,94 @@
+.home-inner {
+    background-image: url("/../assets/img/Group\ 9@3x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+
+}
+.home-wrap {
+    background-image: url("/../assets/img/Rectangle\ 6@3x.png");
+    height: 800px;
+    background-size: cover;
+    /* transform: skewY(8deg);
+    transform-origin: 100%; */
+}
+.first{
+    position: relative;
+    top: -80%;
+}
+
+#size {
+    width: 400px;
+    height: 600px;
+    margin-left: -250px;
+}
+#pad {
+    background-color:#f7f8fa;
+    /* height: 150px; */
+    z-index: 1;
+    position: relative;
+}
+
+ul img{
+    width: 210px;
+    /* padding: 20px 20px; */
+}
+ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+.pt-4 {
+    padding-bottom: 50px;
+}
+h2 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size:60px;
+    color: white;
+}
+.text {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.btn-md{
+    border: transparent!important;
+    box-shadow: none!important;
+    outline: none !important;
+}
+.btn-sm{
+    border: transparent!important;
+    box-shadow: none!important;
+}
+
+.d-flex{
+    justify-content: center;
+}
+.d-flex img{
+    height:50px;
+  
+}
+
+@media(max-width:767px){
+    .home-inner,.home-wrap{
+        height: 560px;
+    }
+
+    h2 {
+        padding-top:30px;
+        font-size: 40px;
+    }
+
+
+    #pic1,#pic2, #pic3, #pic4 {
+        width: 200px;
+    }
+
+    ul img{
+        width: 150px;
+        padding: 20px 10px 0 0;
+    }
+}

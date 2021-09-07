@@ -1,0 +1,45 @@
+.para{
+    color: black;
+    font-size:20px;
+    font-weight: 400;
+}
+#contact {
+    background-color: #f7f8fa;
+    z-index: 2;
+    position: relative;
+}
+iframe{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+#row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#head {
+    color: black;
+    padding-top:70px;
+    font-size:30px;
+}
+.img{
+    background: url("/../assets/img/Rectangle\ 6@3x.png");
+    height:300px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.img .fa-2x{
+    color:orangered;
+    font-style: normal;
+    background-color: white;
+    border-radius: 50%;
+    height:90px;
+    width:90px;
+    display: inline-block;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    line-height: 90px;
+    font-size:30px;
+    position: absolute;
+    transform: translate(-47px, -47px);
+}

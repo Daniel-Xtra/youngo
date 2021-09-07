@@ -1,0 +1,8 @@
+#service {
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+    z-index: 2;
+    font-size: 20px;
+    position: relative;
+}
