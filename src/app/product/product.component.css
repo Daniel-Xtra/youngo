@@ -132,12 +132,12 @@ h2 {
         margin-bottom: 20px;
     }
     #pic1,#pic2, #pic3, #pic4 {
-        width: 200px;
+        width: 185px;
     }
 }
 
 @media(max-width:991px){
     #pic1,#pic2,#pic3,#pic4 {
-        width: 200px;
+        width: 185px;
     }
 }

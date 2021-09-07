@@ -69,7 +69,7 @@ h2 {
 }
 .d-flex img{
     height:50px;
-  
+    width: 120px; 
 }
 
 @media(max-width:767px){
