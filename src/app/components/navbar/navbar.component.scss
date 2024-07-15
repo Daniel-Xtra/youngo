@@ -1,0 +1,6 @@
+a {
+  @apply font-medium text-base capitalize text-gray-800;
+  &.active {
+    @apply text-pink-600;
+  }
+}
